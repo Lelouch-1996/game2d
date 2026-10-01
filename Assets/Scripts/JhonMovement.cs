@@ -14,6 +14,7 @@ public class JohnMovement : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     private bool IsCrouching;
+    private float LastShoot;
 
     void Start()
     {
@@ -60,9 +61,10 @@ public class JohnMovement : MonoBehaviour
             {
                 Jump();
             }
-            if (Keyboard.current.spaceKey.isPressed)
+            if ((Keyboard.current.spaceKey.isPressed) && Time.time > LastShoot + 0.25f)
             {
                 Shoot();
+                LastShoot = Time.time;
             }
         }
         if (Horizontal < 0.0f)
