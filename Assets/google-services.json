@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972752036909",
+    "project_id": "videojuego-2d-e4a88",
+    "storage_bucket": "videojuego-2d-e4a88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972752036909:android:ceeffc31614022a17a84a4",
+        "android_client_info": {
+          "package_name": "com.estudiante.videojuego2d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbUV503YYXzNKkpixXAgQ66rzbzJdM260"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
